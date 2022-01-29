@@ -1,0 +1,22 @@
+#navbar_top{
+    /* position: relative; */
+    float:right;
+    z-index:10;
+    text-align: right;
+   margin-left: auto;
+   color:#000000;
+}
+.container-fluid{
+    z-index: 10;
+}
+#navbarNav2 li{
+ color:#0f0f0f;
+ z-index:10;
+
+}
+.dropdown-menu22{
+    width:60px;
+}
+.navbar-toggler-icon{
+    z-index:10;
+}

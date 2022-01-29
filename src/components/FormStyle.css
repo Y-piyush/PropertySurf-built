@@ -1,0 +1,85 @@
+.p-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: stretch;
+    min-width: 200px;
+    font-size: 16px;
+}
+.p-form label{
+    text-align: left;
+    width:150px;
+}
+.p-form .icon{
+    color: #005ca8;
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+
+.button-container{
+    padding: 18px 0;
+    align-self: flex-end;
+}
+
+.button-container button{
+    padding: 12px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background: #005ca8;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px #005ca84f;
+    transition: all 0.3s;
+}
+
+.button-container button:hover{
+    box-shadow: 0 6px 8px #005ca84f;
+    transform: translateY(-3px);
+}
+
+.field{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    color: #000;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    resize: vertical;
+}
+
+.field:focus{
+    outline: none !important;
+    border: 2px solid #005ca8;
+}
+
+.properties-container{
+
+}
+
+label{
+    /* margin-top: 16px; */
+    margin-bottom: 8px;
+}
+
+
+
+input[type=file]::file-selector-button {
+    padding: 8px;
+    font-size: 14px;
+    height: fit-content;
+    margin-right: 8px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    background: #005ca8;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px #005ca84f;
+    transition: all 0.3s;
+  }
+  
+input[type=file]::file-selector-button:hover {
+    box-shadow: 0 6px 8px #005ca84f;
+    transform: translateY(-3px);
+}

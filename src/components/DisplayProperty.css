@@ -1,0 +1,85 @@
+.property-display{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    max-width: 800px;
+    margin-top: 12px;
+    text-align: left;
+}
+
+.post-card{
+     width: fit-content;
+    margin: 15px;
+ 
+    
+}
+
+.property-display div img{
+    object-fit:cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    width: 300px;
+    border-radius: 20px;
+    
+    
+    vertical-align: middle;
+    background-color: rgb(176, 233, 250);
+}
+.property-display .image-div1{
+    width:300px;
+}
+
+.full-content{
+    margin: 15px;
+    display: flex;
+    justify-self: stretch;
+    flex-direction: column;
+    /* align-self: stretch; */
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+#fc-title{
+    font-size: 24px;
+    color: #005ca8;
+}
+
+#fc-description{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#fc-price{
+    margin-top: 16px;
+    font-size: 24px;
+    color: #005ca8;
+}
+
+.full-content p{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.date-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.date-card div{
+    padding: 5px;
+}
+
+@media screen and (min-width:800px) {
+    .property-display{
+        flex-direction: row;
+        flex-wrap: no-wrap;
+        justify-content: stretch;
+    }
+}

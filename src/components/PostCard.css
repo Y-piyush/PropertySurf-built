@@ -1,0 +1,56 @@
+.overlay {
+    background:rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* padding: 64px 0; */
+    backdrop-filter: blur(1px);
+    z-index: 20;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.post-card{
+    background: #fff;
+    border-radius: 12px;
+    width: fit-content;
+    height: fit-content;
+    padding: 24px;
+    margin: 52px 0;
+    width: 75%;
+    min-width: 160px;
+    /* max-width: 500px; */
+    z-index: 25;
+}
+
+.title-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.title-bar h3{
+    font-size: 18px;
+    user-select: none;
+}
+
+.title-bar button{
+    border: 0;
+    background: none;
+    width: 36px;
+    height: 36px;
+    margin: -12px -12px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+button .icon{
+    vertical-align: middle;
+}
+.title-bar button:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
