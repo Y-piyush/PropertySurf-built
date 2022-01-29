@@ -22,7 +22,7 @@
   overflow: hidden;
   background-color:transparent;
   display:inline-block;
-  float:right;
+  /* float:right; */
   right:0px;
   text-align: right;
 }
@@ -113,7 +113,8 @@ p{margin-bottom: 0.5rem;}
   justify-content: center;
 }
 .headercard1 div p{
-  padding:0px 35px;
+  padding:10px 35px;
+  
   color:rgb(143, 143, 143);
 }
 .headercard1 div p:hover{
@@ -360,6 +361,26 @@ object{
 }
 /* //////// */
 
+.container-fluid2 select{
+  border:none;
+  background-color: #5099f8;
+  color:#ffffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-right:20px;
+  font-weight: 500;
+}
+.btn-outline-success{
+  background-color: #0c918a;
+  color:#ffffff;
+  font-weight: 500;
+}
+.btn-outline-success:hover{
+  background-color: #000000;
+}
+.container-fluid2 select:hover{
+  background-color: #000000;
+}
 
 footer{
   
